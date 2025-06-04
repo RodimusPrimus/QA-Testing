@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calendar App</h1>
+    <form id="event-form">
+        <input type="text" id="title" placeholder="Event Title" required>
+        <input type="datetime-local" id="datetime" required>
+        <input type="number" id="reminder" placeholder="Reminder (minutes before)">
+        <button type="submit">Add Event</button>
+    </form>
+
+    <h2>Events</h2>
+    <ul id="event-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
